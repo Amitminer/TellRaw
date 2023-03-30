@@ -1,0 +1,18 @@
+
+---
+name: TellRaw
+version: 2.0.0
+main: AmitxD\TellRaw\Main
+src-namespace-prefix: AmitxD\TellRaw
+api: 4.12.8
+author: AmitxD
+website: https://github.com/Amitminer/TellRaw
+commands:
+ tellraw:
+  description: "Tellraw sends a message to selected or all players being useful for sending plain messages to players ingame"
+  permission: TellRaw.command.tellraw
+permissions:
+  TellRaw.command.tellraw:
+    description: "Allows the user to run the TellRaw command"
+    default: op
+...
