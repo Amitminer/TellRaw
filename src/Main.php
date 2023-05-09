@@ -27,7 +27,7 @@ class Main extends PluginBase implements Listener {
             $sender->sendMessage("§cPlayer not found!");
             return false;
         }
-        $message = implode(" ", $args);
+        $message = strtoupper(implode(" ", $args));
         if(empty($message)) {
             $sender->sendMessage("§cPlease enter the message you want to send.");
             return false;
